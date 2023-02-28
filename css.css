@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    height: 130vh;
+    max-height: 1200px;
+margin: 0 auto;
+background-color: rgb(114, 1, 252);
+flex-direction: column;
+display: flex;
+justify-content: space-between;
+border: 5px solid rgb(151, 0, 168);
+box-shadow: 10px 5px 5px rgb(34, 0, 63);
+}
+
+h1{
+    font-size: 35;
+text-align: center;
+padding: 20px;
+background-color: rgb(179, 55, 207);
+}
+#texto{
+ font-size: 35px;
+ text-align: center;
+ padding: 20px;
+ background-color: rgb(217, 2, 250);
+}
+
+#res{
+    text-align: center;
+    font-size: large;
+    padding: 50;
+}
+#resultado{
+    text-align: center;
+}
+
+button{
+    border: 5px solid rgb(103, 0, 147);
+    margin: 5px;
+}
+
+#grupo{
+text-align: center;
+    width: 100%;
+
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+   background-image: url('img/fondo.jpeg');
+}
